@@ -1,0 +1,73 @@
+<base href="http://13.115.251.76:8080">
+<meta charset="utf-8">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="content-style-type" content="style/css">
+<title>hogehoge</title>
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+
+  <style type="text/css">
+    #divActionsMain .hide {
+		background: #eee;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		position: relative;
+		margin-top: 0.5em;
+		margin-right: 25px;
+		margin-bottom: 0.5em;
+		margin-left: 25px;
+		padding: 3px;
+	}
+  </style>
+</head>
+<body>
+  <center>
+    <h1 class="logo"><img src="img/login2.gif" alt="login page"></h1>
+    <div class="formbox">
+      <div class="formboxheader3">
+        <h2>Login</h2>
+        <div style="clear:both"></div>
+      </div>
+      <form id="loginForm" name="flogin" action="auth;jsessionid=81EF9B881CF1DDBA8C3FF919BBCF49A3" method="post" autocomplete="off">
+
+      <div class="form1">
+        <div class="login">
+          <table width="100%">
+            <tbody><tr>
+              <td scope="col" class="lab"><label for="uid">ユーザーID</label></td>
+              <td scope="col">
+                <input id="uid" name="uid" type="text" class="inputbox_s1" style="ime-mode: disabled" tabindex="1" value="sakamoto">
+              </td>
+            </tr>
+          </tbody></table>
+          <div style="clear: both; height: 0px;"></div>
+        </div>
+        <div class="login">
+          <table width="100%">
+            <tbody><tr>
+              <td scope="col" class="lab"><label for="password">パスワード</label></td>
+              <td scope="col"><input type="password" name="password" class="inputbox_s1" tabindex="3" value=""></td>
+            </tr>
+          </tbody></table>
+          <div style="clear: both; height: 0px;"></div>
+        </div>
+
+        <div style="clear: both; height: 20px;"></div>
+
+        <input id="loginSubmit" name="loginSubmit" value="ログイン" tabindex="2" type="submit">
+        <div style="clear: both; height: 15px;"></div>
+      </div>
+      </form>
+      <br>
+      <div class="formboxfutter">International Systems Research Co.</div>
+    </div>
+    <br>
+    <div class="warnmessage">
+      パスワードが一致しません
+    </div>
+
+  </center>
+
+</body></html>

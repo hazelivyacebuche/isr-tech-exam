@@ -1,0 +1,24 @@
+test.py::LoginUser::test1
+--------------------------------------------------------------------
+Last Page: http://13.115.251.76:8080/exam/auth;jsessionid=81EF9B881CF1DDBA8C3FF919BBCF49A3
+  Browser: chrome
+Timestamp: 1627920383  (Unix Timestamp)
+     Date: Tuesday, 3 August 2021
+     Time: 12:06:23 AM  (PST, UTC+08:00)
+--------------------------------------------------------------------
+Traceback: File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/home/hacebuche/Documents/test/tests/test.py", line 55, in test1
+    self.assert_text("ログイン完了")
+  File "/home/hacebuche/.local/lib/python3.8/site-packages/seleniumbase/fixtures/base_case.py", line 7159, in assert_text
+    self.wait_for_text_visible(text, selector, by=by, timeout=timeout)
+  File "/home/hacebuche/.local/lib/python3.8/site-packages/seleniumbase/fixtures/base_case.py", line 7088, in wait_for_text_visible
+    return page_actions.wait_for_text_visible(
+  File "/home/hacebuche/.local/lib/python3.8/site-packages/seleniumbase/fixtures/page_actions.py", line 412, in wait_for_text_visible
+    timeout_exception(ElementNotVisibleException, message)
+  File "/home/hacebuche/.local/lib/python3.8/site-packages/seleniumbase/fixtures/page_actions.py", line 132, in timeout_exception
+    raise exception(message)
+Exception: Message: 
+ Expected text {ログイン完了} for {html} was not visible after 6 seconds!
